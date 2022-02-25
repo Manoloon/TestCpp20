@@ -5,9 +5,18 @@
 #include "Src/findSecondInRange.h"
 #include "Src/templatePractice.h"
 #include "Src/Calc.h"
+#include "Src/concepts.h"
+
+class A{};
 
 int main()
 {
+    conceptsTest::ConceptActor Actor;
+    Actor.TestConcept();
+
+
+    /////////////////////////////////////////////
+    /**
     std::vector<int> vecOfNums1{ 1, 4, 5, 22, 33, 2, 11, 89, 49 };
     std::vector<int> vecOfNums2{ 1, 4, 5, 22, 33, 2, 11, 89, 49 };
     std::vector<int> vecOfNums3{1,4,5};
@@ -33,6 +42,6 @@ int main()
     // Test simple calc
     Calc<float> FloatCalc(3.2,3.4);
     FloatCalc.add();
-    FloatCalc.displayResult();
+    FloatCalc.displayResult();*/
     return 0;
 }
