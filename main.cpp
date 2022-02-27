@@ -6,6 +6,7 @@
 #include "Src/templatePractice.h"
 #include "Src/Calc.h"
 #include "Src/concepts.h"
+#include "Src/lambda.h"
 
 class A{};
 
@@ -14,6 +15,7 @@ int main()
     conceptsTest::ConceptActor Actor;
     Actor.TestConcept();
 
+    lambda::PrintSum(3,3);
 
     /////////////////////////////////////////////
     /**
